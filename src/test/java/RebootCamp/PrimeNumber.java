@@ -18,6 +18,7 @@ public class PrimeNumber {
 
         str1 ="alal";
         System.out.println(str1);
+        System.out.println(str);
 
 
     }
