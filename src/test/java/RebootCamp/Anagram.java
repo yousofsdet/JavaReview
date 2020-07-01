@@ -6,23 +6,24 @@ public class Anagram {
 
     public static void main(String[] args) {
         String a = "listenp";
-        String b = "silentp";
+        String b = "silenta";
         String rest ="";
 
-        if (a.length() != b.length()) {
-            System.out.println("worng value");
+        if(a.length() != b.length()){
+            System.out.println("Not Anagram");
             System.exit(0);
         }
-                for (int j = 0; j < a.length(); j++) {
-                    if ((a.contains( b.charAt(j)+"") & (b.contains(a.charAt(j)+""))) ){
-                rest = "Yes Anagram" ;
-                    }else {
-                        rest = "not anagram ";
-                        break;
-                    }
 
-                }
+        for(int i=0 ; i< a.length() ; i++){
+
+            if(a.contains(b.charAt(i)+"") & b.contains(a.charAt(i)+"")){
+                rest = "Yes it is anagram";
+            }else{
+                rest = "not anagram";
+            }
+        }
         System.out.println(rest);
+
             }
 
         }
