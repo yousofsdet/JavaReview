@@ -25,26 +25,12 @@ public class CountWordsBYHashMap {
                 CountMap.put(c, 1);
             }
         }
-
         System.out.println(CountMap);
-//      Print the map
-      for (Map.Entry entry : CountMap.entrySet()) {
-            System.out.println(entry.getKey() + " " + entry.getValue());
-        }
 
-//        HashMap<String, Integer> counts = new HashMap<>();
-//        int count = 0;
-//        String strarr[] = str.split(" ");
-//
-//        for (int i = 0; i < counts.size(); i++) {
-//            if (counts.containsKey(strarr[i])) {
-//                count = counts.get(strarr[i]);
-//                counts.put(strarr[i], count++);
-//            } else {
-//                counts.put(strarr[i], 1);
-//            }
-//        }
-//        System.out.println(counts);
+//     yakisikli Print the map without =
+      for (Map.Entry entry : CountMap.entrySet()){
+          System.out.println(entry.getKey()+" "+ entry.getValue());
+      }
     }
 }
 
