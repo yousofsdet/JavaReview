@@ -11,6 +11,25 @@ public class A_1_REVERSE {
         }
  public static void main(String[] args) {
 
+     String str = "Alibabanin dokumasi";
+
+//  WAY=1      StringBuilder tersStr = new StringBuilder();
+//        tersStr.append(str);
+//        tersStr.reverse();
+//        System.out.println(tersStr.toString());
+
+//  WAY=2      String reversed = "";
+//        for(int i = str.length()-1; i>=0; i--){
+//            reversed += "" + str.charAt(i);
+//        }
+//        System.out.println(reversed);
+
+//     WAY=3
+     String[] strarr = str.split("");
+
+     for (int i = str.length()-1 ; i >=0 ; i--) {
+         System.out.print(strarr[i]);
+     }
 
      List<String> list = new ArrayList<>();
       list.add("hawk");

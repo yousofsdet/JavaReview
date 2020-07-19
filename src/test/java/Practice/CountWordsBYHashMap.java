@@ -3,7 +3,7 @@ package Practice;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CountWordsInAString {
+public class CountWordsBYHashMap {
 
     public static void main(String[] args) {
         String str = "We are the champions of " +
@@ -31,7 +31,6 @@ public class CountWordsInAString {
       for (Map.Entry entry : CountMap.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
-
 
 //        HashMap<String, Integer> counts = new HashMap<>();
 //        int count = 0;
