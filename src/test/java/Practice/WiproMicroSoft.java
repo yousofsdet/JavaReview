@@ -1,6 +1,6 @@
 package Practice;
 
-public class PrintOutWPR {
+public class WiproMicroSoft {
 
 
      public static String model(String str){

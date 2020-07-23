@@ -20,8 +20,8 @@ public class CountWordsBYHashMap {
                 // incrementing it's count by 1
                 CountMap.put(c, CountMap.get(c) + 1);
             } else {
-                // If char is not present in charCountMap,
-                // putting this char to charCountMap with 1 as it's value
+                // If char is not present in CountMap,
+                // putting this char to CountMap with 1 as it's value
                 CountMap.put(c, 1);
             }
         }
